@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ATTESTFLE • Grammaire B1–B2</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="bg"></div><main class="app">
+<header class="hero"><div class="badge">🇫🇷 ATTESTFLE • ENTRAÎNEMENT</div><h1>GRAMMAIRE <span>B1–B2</span></h1><p>Pronoms relatifs • Hypothèse • Discours rapporté • Voix passive</p></header>
+<section id="start" class="panel"><h2>Prêt(e) à relever le défi ?</h2><p class="muted">31 questions • Ordre mélangé • Résultat détaillé à la fin</p>
+<label for="fullname">Nom et prénom</label><input id="fullname" placeholder="Entrez votre nom et prénom" autocomplete="name">
+<label for="duration">Durée du test</label><select id="duration"><option value="45">45 minutes</option><option value="30">30 minutes</option><option value="60">60 minutes</option></select>
+<button id="startBtn" class="primary">COMMENCER LE TEST 🚀</button></section>
+<section id="quiz" class="panel hidden"><div class="topline"><div id="timer" class="timer">45:00</div><div id="progressText">Question 1 / 31</div></div><div class="progress"><div id="progressBar"></div></div><div id="qnum" class="qnum"></div><h2 id="question"></h2><div id="options" class="options"></div><div class="actions"><button id="prev" class="secondary">← Précédent</button><button id="next" class="primary">Suivant →</button></div></section>
+<section id="result" class="panel hidden"><div class="resultmark">🏆</div><h2>TEST TERMINÉ !</h2><div id="scoreline"></div><div id="review"></div><button id="restart" class="primary">RECOMMENCER</button></section>
+<footer>ATTESTFLE • Français • B1–B2</footer></main><script src="questions.js"></script><script src="app.js"></script></body></html>
